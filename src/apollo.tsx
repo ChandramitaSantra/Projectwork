@@ -26,7 +26,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 })
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'https://pw-backend-production-4a8d.up.railway.app/graphql',
   credentials: 'same-origin',
 })
 
